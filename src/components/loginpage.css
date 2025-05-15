@@ -1,0 +1,172 @@
+/* Modernized styles for the login page */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+.split-screen {
+    display: flex;
+    height: 100vh;
+}
+
+.left-panel {
+    flex: 1;
+    background-color: #00aaff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+.left-panel img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 0;
+}
+
+.slider-image {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.right-panel {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+    padding: 20px;
+}
+
+.login-container {
+    width: 100%;
+    max-width: 400px;
+    padding: 40px;
+    background: linear-gradient(135deg, #fff, #f9f9f9);
+    border-radius: 15px;
+    box-shadow: 0 6px 25px rgba(0, 0, 0, 0.15);
+    text-align: center;
+}
+
+/* Updated styles for radio group alignment */
+.radio-group {
+    display: flex;
+    justify-content: center; /* Center align the radio buttons */
+    align-items: center;
+    margin: 1rem 0;
+    gap: 1rem; /* Add spacing between radio buttons */
+}
+
+.radio-group label {
+    font-size: 1rem;
+    color: #333;
+    font-weight: 500; /* Slightly bold for better visibility */
+}
+
+.radio-group input {
+    margin-right: 0.5rem; /* Adjust spacing for better alignment */
+}
+
+.logo {
+    width: 120px;
+    margin-bottom: 1.5rem;
+}
+
+.login-header h2 {
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.login-header p {
+    font-size: 1rem;
+    color: #666;
+    margin-bottom: 20px;
+}
+
+.form-group {
+    margin-bottom: 1.5rem;
+    text-align: left;
+}
+
+.form-group label {
+    display: block;
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+    color: #333;
+}
+
+.form-group input {
+    width: 100%;
+    padding: 0.8rem;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    font-size: 1rem;
+    transition: border-color 0.3s, box-shadow 0.3s;
+    margin-bottom: 1rem;
+}
+
+.form-group input:focus {
+    border-color: #800000;
+    box-shadow: 0 0 0 2px rgba(128, 0, 0, 0.2);
+    outline: none;
+}
+
+.btn-submit {
+    background-color: #800000;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    padding: 1rem;
+    font-size: 1.1rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    width: 100%;
+    margin-top: 1rem;
+}
+
+.btn-submit:hover {
+    background-color: #600000;
+    transform: scale(1.05);
+}
+
+.form-links {
+    margin-top: 1rem;
+    text-align: center;
+}
+
+.form-links a {
+    color: #800000;
+    text-decoration: none;
+    font-weight: 600;
+    transition: color 0.3s;
+}
+
+.form-links a:hover {
+    color: #600000;
+}
+
+.register-link {
+    margin-top: 1.5rem;
+    font-size: 0.9rem;
+    color: #666;
+}
+
+.register-link a {
+    color: #800000;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.register-link a:hover {
+    color: #600000;
+}
